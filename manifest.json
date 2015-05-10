@@ -1,0 +1,12 @@
+{
+    "name": "URLs Ad Cleaner",
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "Chrome Extension that cleans URLs from ADs that force you to wait 'x' seconds to continue.",
+    "content_scripts": [
+        {
+            "matches": [ "http://www.990.ro/*" ],
+            "js": [ "jquery-2.1.4.min.js", "content.js" ]
+        }
+    ]
+}
