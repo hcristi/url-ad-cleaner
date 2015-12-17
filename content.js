@@ -3,7 +3,11 @@ var regList = [
     {
         href: 'http://sh',
         pattern: "http:\/\/sh.st\/.*(http:.*)"
-    }
+    },
+	{
+		href: 'http://adf',
+		pattern: "http:\/\/adf.ly\/.*(http:.*)"
+	}
 ];
 
 for (var i = 0; i < regList.length; i++) {
