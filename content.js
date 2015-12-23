@@ -7,7 +7,11 @@ var regList = [
 	{
 		href: 'http://adf',
 		pattern: "http:\/\/adf.ly\/.*(http:.*)"
-	}
+	},
+    {
+        href: 'http://linkshrink',
+        pattern: "http:\/\/linkshrink.net\/.*(http:.*)"
+    }
 ];
 
 for (var i = 0; i < regList.length; i++) {
