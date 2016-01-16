@@ -7,6 +7,10 @@ var regList = [
 	{
 		href: 'http://adf',
 		pattern: "http:\/\/adf.ly\/.*(http:.*)"
+	},
+	{
+		href: 'https://www.spaste',
+		pattern: "https:\/\/www.spaste.com\/.*(http:.*)"
 	}
 ];
 
