@@ -11,7 +11,11 @@ var regList = [
 	{
 		href: 'https://www.spaste',
 		pattern: "https:\/\/www.spaste.com\/.*(http:.*)"
-	}
+	},
+    {
+        href: 'http://linkshrink',
+        pattern: "http:\/\/linkshrink.net\/.*(http:.*)"
+    }
 ];
 
 for (var i = 0; i < regList.length; i++) {
